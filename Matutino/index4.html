@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tercer página web responsive</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+
+        header, nav, main, footer {
+            padding: 15px;
+        }
+
+        header{
+            background: #1f2937;
+            color: white; 
+        }
+
+        nav{
+            background: #f3f4f6;
+        }
+
+        footer{
+            background: #1f2937;
+            color: white;
+            text-align: center;
+        }
+
+        .wrap{
+            max-width: 900px;
+            margin: auto;
+        }
+
+        nav a{
+            display: incline-block;
+            margin: 5px 10px 5px 0;
+            padding: 5px 10px;
+            background: white;
+            border: 1px solid #ddd;
+            text-decoration: none;
+            color: #111;
+        }
+
+        .caja{
+            background: #fafafa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        main div{
+            display: flex;
+        }
+        div img{
+            height: auto;
+            width: 100%;
+        }
+    </style> 
+    <header>
+        <div class="wrap">
+            <h1>Mi Web Responsive(Isaías Pérez)</h1>
+            <p>Esto funciona en movil sin casi usar media queries.</p>
+        </div>
+    </header>
+    <nav>
+        <div class="wrap">
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Galeria</a>
+        <a href="#">Contacto</a>
+        </div>
+    </nav>
+    <main>
+        <div class="wrap">
+            <section class="caja">
+                <h2>Sección A</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nemo perferendis facilis tempora aperiam animi, nulla illo, inventore quas quae quo? Quae consequatur expedita quod libero velit aliquid eos debitis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nobis voluptate culpa nam temporibus fugit, rerum quisquam a suscipit amet libero. Quia accusantium tempora in voluptas iure? Eligendi, fuga ullam.</p>
+                <img src="https://th.bing.com/th/id/R.fed45b1ae8cd0c5e45b7a3a468e1d94e?rik=IYDR%2fRt9KgjESw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-1yTMZRYIwOM%2fT0Up6JjqKpI%2fAAAAAAAAAFI%2fEMonDsTluqw%2fs1600%2fPAISAJES%252B2.jpg&ehk=o%2bn%2b%2bTls4idUot1711%2fEIAI%2boBpXt88w0bo0IvosGJ8%3d&risl=&pid=ImgRaw&r=0" alt="paisaje">
+
+            </section>
+            <section class="caja">
+                <h2>Sección B</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nemo perferendis facilis tempora aperiam animi, nulla illo, inventore quas quae quo? Quae consequatur expedita quod libero velit aliquid eos debitis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita omnis molestiae nihil deleniti quaerat at corrupti, voluptatibus similique odit laboriosam rem vero consectetur quisquam commodi incidunt quos ipsam iste praesentium!</p>
+                <img src="https://2.bp.blogspot.com/-epneGMSghoM/T7Etq2B4yEI/AAAAAAAAc9U/u7F8lh0GkCw/s1600/Reflexion-Montanas-Lagos_Paisajes-Naturales.jpg" alt="paisaje2">
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="wrap">
+            <p>2026 - Ejemplo básico responsive</p>
+        </div>
+    </footer>
+</body>
+</html>

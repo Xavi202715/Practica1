@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida</title>
+</head>
+<body>
+    <style>
+       body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+
+        header, nav, main, footer {
+            padding: 15px;
+        }
+
+        header{
+            background: #1f2937;
+            color: white; 
+            text-align: center;
+        }
+
+        nav{
+            background: #f3f4f6;
+            align-items: center;
+            align-content: center;
+        }
+
+        footer{
+            background: #1f2937;
+            color: white;
+            text-align: center;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: auto;
+
+        }
+
+        nav a{
+            display: incline-block;
+            margin: 5px 10px 5px 0;
+            padding: 5px 10px;
+            background: white;
+            border: 1px solid #ddd;
+            text-decoration: none;
+            color: #111;
+        }
+
+        .caja{
+            background: #fafafa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        main div{
+            display: flex;
+        }
+        .grid img{
+            height: auto;
+            width: 80%;
+        }
+        .derechos{
+            text-align: center;
+        }
+
+        .menu{
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .logo{
+            height: 10%;
+            width: auto;
+            align-content: flex-start;
+            align-items: flex-start;
+        }
+    </style>
+
+    <header>
+        <div class="logo">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.qAsJiFNBiD8hoVfLJ2fxogHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="ministerio">
+        </div>
+        <h1>Comida Típica de El Salvador</h1>
+    </header>
+    <nav>
+        <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Videos</a>
+            <a href="#">Imagenes</a>
+            <a href="#">Referencias</a>
+        </div>
+    </nav>
+    <main>
+        <div class="grid">
+            <section class="caja">
+                <h2>Pupusas</h2>
+                <p>Pupusas are a traditional dish from El Salvador, with origins tracing back to the Pipil tribes, and are considered the national dish of the country.</p>
+                <img src="https://cdn.kiwilimon.com/recetaimagen/2806/25790.jpg" alt="Pupusas">
+            </section>
+
+            <section class="caja">
+                <h2>Rigua</h2>
+                <p>Riguas are not only a staple in Salvadoran cuisine but also a symbol of the country's agricultural heritage and cultural significance.</p>
+                <img src="https://lh6.googleusercontent.com/-OlagYZYlbaE/U_I_pyZ8_-I/AAAAAAAAF6g/T36UuonZipw/s480/riguas-receta.jpg" alt="Rigua">
+            </section>
+
+            <section class="caja">
+                <h2>Empanadas</h2>
+                <p>The history of empanadas in El Salvador is deeply rooted in the country's culinary traditions and the creative use of local ingredients.</p>
+                <img src="https://lh3.googleusercontent.com/-gsC6B49cA3I/U1g5kkLMxWI/AAAAAAAAEYE/NL8Z2M7Kb_k/s596/empanadas-de-platano.jpg" alt="Empanadas">
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="derechos">
+            <p>2026 Derechos Reservados - Isaías Pérez</p>
+        </div>
+    </footer>
+</body>
+</html>
